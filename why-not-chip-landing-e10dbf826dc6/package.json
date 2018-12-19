@@ -1,0 +1,53 @@
+{
+  "name": "chip-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --progress --colors --mode production",
+    "start": "webpack-dev-server --color --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://BUHARDI@bitbucket.org/why-not/chip-landing.git"
+  },
+  "author": "WHY NOT, SIA",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/why-not/chip-landing#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "polished": "^2.2.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-helmet": "^5.2.0",
+    "react-hot-loader": "^4.3.11",
+    "react-scroll-to-component": "^1.0.2",
+    "react-styled-flexboxgrid": "^2.6.0",
+    "styled-components": "^3.4.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-import-resolver-webpack": "^0.10.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^4.3.1",
+    "prettier": "^1.14.3",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
